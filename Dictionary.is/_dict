@@ -1,0 +1,7 @@
+#!/bin/bash
+# Person=`./_dict {{ Age::35 Name:First::Joshua }}`
+echo RootSomething??{{ key:sub-key:sub-key2::value }}
+echo {{ something?? something else }}
+echo {{ something?? {{ something ?? else }} }}
+echo RootAnother?? {{ something?? {{ something ?? else }} key:sub-key:sub-key2::value }}
+
