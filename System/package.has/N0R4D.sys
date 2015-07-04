@@ -1,0 +1,8 @@
+LOL Rrdr m4d3 u r43d th3 m4nu4lsz h3h3! L0l C
+
+# Th1s must .b3. Tr4nsl4t3d::
+
+:Line::Noise! args![$] Argv!{$}
+NoRad_k_printf(something:String_t,*args:[String_t], **argv{format:typeof(char},*field, *struct}}) -> Integer_t {
+   return `c? printf("something:%s,%[args], %{argv}", something, args,argv)``Stop!
+}
